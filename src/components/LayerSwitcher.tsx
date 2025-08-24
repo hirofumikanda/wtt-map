@@ -96,22 +96,22 @@ export const LayerSwitcher: React.FC<LayerSwitcherProps> = ({
             top: 85,
             zIndex: 2,
             background: "linear-gradient(135deg, #23272f 80%, #353945 100%)",
-            padding: "18px 20px 16px 20px",
-            borderRadius: "14px",
-            fontSize: "15px",
-            boxShadow: "0 6px 24px rgba(0,0,0,0.32)",
+            padding: "10px 12px 10px 12px",
+            borderRadius: "10px",
+            fontSize: "13px",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.22)",
             border: "2px solid #bfa14a",
-            maxWidth: "calc(100vw - 40px)",
-            maxHeight: "50vh",
+            maxWidth: "calc(100vw - 60px)",
+            maxHeight: "35vh",
             overflowY: "auto"
           }}
         >
-          <div style={{ fontWeight: 800, marginBottom: 12, color: "#bfa14a", fontSize: 17, letterSpacing: "0.04em" }}>レイヤ選択</div>
+          <div style={{ fontWeight: 800, marginBottom: 8, color: "#bfa14a", fontSize: 14, letterSpacing: "0.03em" }}>レイヤ選択</div>
           <div
             style={{
               display: "flex",
               flexDirection: "column",
-              gap: "10px"
+              gap: "6px"
             }}
           >
             {layers.map((layer) => (
@@ -121,15 +121,15 @@ export const LayerSwitcher: React.FC<LayerSwitcherProps> = ({
                   display: "flex",
                   alignItems: "center",
                   cursor: "pointer",
-                  padding: "10px 16px",
-                  borderRadius: "8px",
+                  padding: "6px 10px",
+                  borderRadius: "6px",
                   background: activeLayer === layer.id ? "linear-gradient(90deg, #bfa14a22 60%, #23272f 100%)" : "transparent",
                   border: activeLayer === layer.id ? "2px solid #bfa14a" : "2px solid transparent",
-                  fontSize: "16px",
-                  minHeight: "44px",
+                  fontSize: "13px",
+                  minHeight: "32px",
                   color: activeLayer === layer.id ? "#fffbe6" : "#f5f5f5",
                   fontWeight: activeLayer === layer.id ? 700 : 500,
-                  letterSpacing: "0.03em",
+                  letterSpacing: "0.02em",
                   transition: "all 0.2s ease"
                 }}
                 onClick={() => handleLayerSelect(layer.id)}
@@ -141,9 +141,9 @@ export const LayerSwitcher: React.FC<LayerSwitcherProps> = ({
                   checked={activeLayer === layer.id}
                   onChange={() => onLayerChange(layer.id)}
                   style={{ 
-                    marginRight: 14,
-                    width: "20px",
-                    height: "20px",
+                    marginRight: 8,
+                    width: "15px",
+                    height: "15px",
                     accentColor: "#bfa14a",
                     background: "#23272f",
                     border: "2px solid #bfa14a",
@@ -152,9 +152,9 @@ export const LayerSwitcher: React.FC<LayerSwitcherProps> = ({
                   }}
                 />
                 <span style={{ 
-                  lineHeight: "1.5",
+                  lineHeight: "1.4",
                   wordBreak: "break-word",
-                  fontSize: "16px"
+                  fontSize: "13px"
                 }}>
                   {layer.label}
                 </span>
