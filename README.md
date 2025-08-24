@@ -1,6 +1,6 @@
 # WTT Map Visualization
 
-ITTF（International Table Tennis Federation）及びWTT（World Table Tennis）が主催する国際卓球大会の開催結果の可視化を目的とした、Vite + React + TypeScript 製のインタラクティブ地図アプリです。
+[ITTF（International Table Tennis Federation）](https://www.ittf.com/)及び[WTT（World Table Tennis）](https://www.worldtabletennis.com/home)が主催する国際卓球大会の開催結果の可視化を目的とした、Vite + React + TypeScript 製のインタラクティブ地図アプリです。
 
 ## 特徴
 - **高速・軽量**: Viteによる開発・ビルド環境

@@ -6,17 +6,17 @@
       "url": "pmtiles:///wtt-map/data/country.pmtiles",
       "minzoom": 0,
       "maxzoom": 8,
-      "attribution": "<a href='https://www.naturalearthdata.com/downloads/10m-cultural-vectors/' target='_blank'>Made with Natural Earth</a> | <a href='https://www.worldwide-iq-test.com/iq-tests' target='_blank'>Most Intelligent Countries in the World in 2025</a>"
+      "attribution": "<a href='https://www.naturalearthdata.com/downloads/10m-cultural-vectors/' target='_blank'>Made with Natural Earth</a>"
     },
     "wtt_male": {
       "type": "geojson",
       "data": "data/wtt_male.geojson",
-      "attribution": "<a href='https://www.worldwide-iq-test.com/iq-tests' target='_blank'>Most Intelligent Countries in the World in 2025</a>"
+      "attribution": "<a href='https://jtta.or.jp/tournament/schedule' target='_blank'>JTTA大会日程</a>"
     },
     "wtt_female": {
       "type": "geojson",
       "data": "data/wtt_female.geojson",
-      "attribution": "<a href='https://www.worldwide-iq-test.com/iq-tests' target='_blank'>Most Intelligent Countries in the World in 2025</a>"
+      "attribution": "<a href='https://jtta.or.jp/tournament/schedule' target='_blank'>JTTA大会日程</a>"
     }
   },
   "glyphs": "font/{fontstack}/{range}.pbf",
