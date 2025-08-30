@@ -13,6 +13,8 @@ export async function onMapLoad(map: maplibregl.Map) {
   map.addImage("singapore_smash", singapore_smash.data);
   const us_smash = await map.loadImage("img/us_smash.png");
   map.addImage("us_smash", us_smash.data);
+  const europe_smash = await map.loadImage("img/europe_smash.png");
+  map.addImage("europe_smash", europe_smash.data);
   const finals = await map.loadImage("img/finals.png");
   map.addImage("finals", finals.data);
   const champions = await map.loadImage("img/champions.png");

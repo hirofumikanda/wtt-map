@@ -8,6 +8,8 @@ const ALLOW_LAYERS = [
   "wtt_female_2024",
   "wtt_male_2023",
   "wtt_female_2023",
+  "wtt_male_2022",
+  "wtt_female_2022",
 ];
 
 export const setupPopupHandler = (map: Map) => {
@@ -35,7 +37,9 @@ const buildPopupContent = (feature: MapGeoJSONFeature): string => {
     "wtt_male_2024",
     "wtt_female_2024",
     "wtt_male_2023",
-    "wtt_female_2023"
+    "wtt_female_2023",
+    "wtt_male_2022",
+    "wtt_female_2022"
   ];
   const isTargetLayer = feature.layer && targetLayers.includes(feature.layer.id);
 

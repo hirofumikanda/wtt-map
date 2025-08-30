@@ -14,6 +14,8 @@ const LAYERS = [
   { id: "wtt_female_2024", label: "WTT(female/2024)" },
   { id: "wtt_male_2023", label: "WTT(male/2023)" },
   { id: "wtt_female_2023", label: "WTT(female/2023)" },
+  { id: "wtt_male_2022", label: "WTT(male/2022)" },
+  { id: "wtt_female_2022", label: "WTT(female/2022)" },
 ];
 
 const MapView = () => {
